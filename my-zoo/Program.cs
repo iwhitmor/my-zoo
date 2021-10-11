@@ -6,7 +6,9 @@ namespace my_zoo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            abstract class Animal
+    
+
+    
     }
 }
