@@ -6,7 +6,9 @@ namespace my_zoo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Cow cow = new Cow();
+            cow.eats();
+            cow.makeSound();
         }
 
         abstract class Animal
@@ -24,6 +26,23 @@ namespace my_zoo
             public int numbLegs { get; set; }
 
             public abstract bool babyIsNursed { get; }
+        }
+
+        class Cow : Mammal
+        {
+            public override void eats()
+            {
+                Console.WriteLine("Eats: Hay");
+            }
+
+            public override void makeSound()
+            {
+                Console.WriteLine("Says Moooo");
+            }
+
+            public override bool babyIsNursed => true;
+
+            public override bool HasHair => true;
         }
     }
 }
