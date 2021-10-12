@@ -23,9 +23,9 @@ namespace my_zoo
 
         abstract class Mammal : Animal
         {
-            public int numbLegs { get; set; }
+            public abstract int NumLegs { get; set; }
 
-            public abstract bool babyIsNursed { get; }
+            public bool BabyIsNursed { get; }
         }
 
         class Cow : Mammal
@@ -40,9 +40,13 @@ namespace my_zoo
                 Console.WriteLine("Says Moooo");
             }
 
-            public override bool babyIsNursed => true;
+            public override int NumLegs = 4;
+
+            public bool BabyIsNursed => true;
 
             public override bool HasHair => true;
+
+
         }
     }
 }
