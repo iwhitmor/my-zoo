@@ -15,6 +15,9 @@ namespace my_zoo
             Console.WriteLine(dog);
             Console.WriteLine(dog.MakeSound());
             Console.WriteLine(cow.Eats());
+
+            Monkey monkey = new Monkey();
+            Console.WriteLine(monkey);
         }
     }
 }
