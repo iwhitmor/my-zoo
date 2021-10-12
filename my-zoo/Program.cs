@@ -45,8 +45,6 @@ namespace my_zoo
             public bool BabyIsNursed => true;
 
             public override bool HasHair => true;
-
-
         }
     }
 }
