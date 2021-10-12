@@ -14,30 +14,30 @@ namespace my_zoo
         abstract class Animal
 
         {
-            public abstract void eats();
+            public abstract string eats();
 
-            public abstract void makeSound();
+            public abstract string makeSound();
 
             public abstract bool HasHair { get; }
         }
 
         abstract class Mammal : Animal
         {
-            public abstract int NumLegs { get; set; }
+            public abstract int NumLegs { get; }
 
             public bool BabyIsNursed { get; }
         }
 
         class Cow : Mammal
         {
-            public override void eats()
+            public override string eats()
             {
-                Console.WriteLine("Eats: Hay");
+                return "Hay";
             }
 
-            public override void makeSound()
+            public override string makeSound()
             {
-                Console.WriteLine("Says Moooo");
+                return "Moooo";
             }
 
             public override int NumLegs = 4;
