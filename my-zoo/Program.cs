@@ -7,44 +7,14 @@ namespace my_zoo
         static void Main(string[] args)
         {
             Cow cow = new Cow();
-            cow.eats();
-            cow.makeSound();
-        }
+            Console.WriteLine(cow);
+            Console.WriteLine(cow.MakeSound());
+            Console.WriteLine(cow.Eats());
 
-        abstract class Animal
-
-        {
-            public abstract string eats();
-
-            public abstract string makeSound();
-
-            public abstract bool HasHair { get; }
-        }
-
-        abstract class Mammal : Animal
-        {
-            public abstract int NumLegs { get; }
-
-            public bool BabyIsNursed { get; }
-        }
-
-        class Cow : Mammal
-        {
-            public override string eats()
-            {
-                return "Hay";
-            }
-
-            public override string makeSound()
-            {
-                return "Moooo";
-            }
-
-            public override int NumLegs = 4;
-
-            public bool BabyIsNursed => true;
-
-            public override bool HasHair => true;
+            Dog dog = new Dog();
+            Console.WriteLine(dog);
+            Console.WriteLine(dog.MakeSound());
+            Console.WriteLine(cow.Eats());
         }
     }
 }
