@@ -1,20 +1,20 @@
 ﻿namespace my_zoo
-{
+{ 
     class Monkey : Mammal
 
     {
-        public override int NumLegs => throw new System.NotImplementedException();
+        public override int NumLegs => 2;
 
-        public override bool HasHair => throw new System.NotImplementedException();
+        public override bool BabyIsNursed => true;
 
         public override string Eats()
         {
-            throw new System.NotImplementedException();
+            return "Bananas";
         }
 
         public override string MakeSound()
         {
-            throw new System.NotImplementedException();
+            return "Howl";
         }
     }
 }

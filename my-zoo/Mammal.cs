@@ -10,5 +10,7 @@
         public abstract int NumLegs { get; }
 
         public virtual bool BabyIsNursed { get; }
+
+        public override bool HasHair => true;
     }
 }

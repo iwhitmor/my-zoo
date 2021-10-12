@@ -18,6 +18,15 @@ namespace my_zoo
 
             Monkey monkey = new Monkey();
             Console.WriteLine(monkey);
+
+            Alligator alligator = new Alligator();
+            Console.WriteLine(alligator);
+
+            Snake snake = new Snake();
+            Console.WriteLine(snake);
+
+            Turtle turtle = new Turtle();
+            Console.WriteLine(turtle);
         }
     }
 }
