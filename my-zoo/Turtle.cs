@@ -2,7 +2,7 @@
 {
     class Turtle : Reptile
     {
-        public override string ScaleColor => throw new System.NotImplementedException();
+        public override string ScaleColor => "Green-ish?";
 
         public override bool LaysEggs => true;
 
