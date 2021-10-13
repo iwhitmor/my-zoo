@@ -2,7 +2,7 @@
 {
     class Snake : Reptile
     {
-        public override string ScaleColor => throw new System.NotImplementedException();
+        public override string ScaleColor => "Multiple Colors!";
 
         public override bool LaysEggs => true;
 
