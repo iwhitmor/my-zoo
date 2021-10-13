@@ -35,11 +35,7 @@ Then select and open ```my-zoo.sln```
 ### Visuals
 
 Visuals of application are coming soon!
-<!-- ***[Add screenshots of your application in action]*** -->
 
-<!-- #### Application Start
-![Image 1](https://via.placeholder.com/750x500)
-#### Using the Application
-![Image 1](https://via.placeholder.com/750x500)
-#### Application End
-![Image 1](https://via.placeholder.com/750x500) -->
+* Lab 06
+
+![zoo1](./my-zoo-lab-6.png)
