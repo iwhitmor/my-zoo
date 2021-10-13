@@ -30,16 +30,23 @@ namespace my_zoo
             Alligator alligator = new Alligator();
             Console.WriteLine("Hi, I am a Alligator!");
             Console.WriteLine(alligator);
+            Console.WriteLine(alligator.MakeSound());
+            Console.WriteLine(alligator.Eats());
             Console.WriteLine();
 
             Snake snake = new Snake();
             Console.WriteLine("Hi, I am a Snake!");
             Console.WriteLine(snake);
+            Console.WriteLine(snake.MakeSound());
+            Console.WriteLine(snake.Eats());
             Console.WriteLine();
 
             Turtle turtle = new Turtle();
             Console.WriteLine("Hi, I am a Turtle!");
             Console.WriteLine(turtle);
+            Console.WriteLine(turtle.MakeSound());
+            Console.WriteLine(turtle.Eats());
+            Console.WriteLine();
         }
     }
 }
