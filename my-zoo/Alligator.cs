@@ -8,12 +8,12 @@
 
         public override string Eats()
         {
-            return "Fish";
+            return "I enjoy eating fish";
         }
 
         public override string MakeSound()
         {
-            return "Bellow";
+            return "I bellow loudly";
         }
     }
 }
