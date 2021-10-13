@@ -6,46 +6,46 @@ namespace my_zoo
     {
         static void Main(string[] args)
         {
+            static void WriteAnimal(Animal animal)
+            {
+                Console.WriteLine(animal);
+                Console.WriteLine(animal.MakeSound());
+                Console.WriteLine(animal.Eats());
+            }
+
+            Console.WriteLine("-------------------------------------------------------");
+            Console.WriteLine("Hello! Welcome to my zoo! Lets meet all of our animals!");
+            Console.WriteLine("-------------------------------------------------------");
+            Console.WriteLine();
+
             Cow cow = new Cow();
             Console.WriteLine("Hi, I am a Cow!");
-            Console.WriteLine(cow);
-            Console.WriteLine(cow.MakeSound());
-            Console.WriteLine(cow.Eats());
+            WriteAnimal(cow);
             Console.WriteLine();
 
             Dog dog = new Dog();
             Console.WriteLine("Hi, I am a Dog!");
-            Console.WriteLine(dog);
-            Console.WriteLine(dog.MakeSound());
-            Console.WriteLine(cow.Eats());
+            WriteAnimal(dog);
             Console.WriteLine();
 
             Monkey monkey = new Monkey();
             Console.WriteLine("Hi, I am a Monkey!");
-            Console.WriteLine(monkey);
-            Console.WriteLine(monkey.MakeSound());
-            Console.WriteLine(monkey.Eats());
+            WriteAnimal(monkey);
             Console.WriteLine();
 
             Alligator alligator = new Alligator();
             Console.WriteLine("Hi, I am a Alligator!");
-            Console.WriteLine(alligator);
-            Console.WriteLine(alligator.MakeSound());
-            Console.WriteLine(alligator.Eats());
+            WriteAnimal(alligator);
             Console.WriteLine();
 
             Snake snake = new Snake();
             Console.WriteLine("Hi, I am a Snake!");
-            Console.WriteLine(snake);
-            Console.WriteLine(snake.MakeSound());
-            Console.WriteLine(snake.Eats());
+            WriteAnimal(snake);
             Console.WriteLine();
 
             Turtle turtle = new Turtle();
             Console.WriteLine("Hi, I am a Turtle!");
-            Console.WriteLine(turtle);
-            Console.WriteLine(turtle.MakeSound());
-            Console.WriteLine(turtle.Eats());
+            WriteAnimal(turtle);
             Console.WriteLine();
         }
     }
