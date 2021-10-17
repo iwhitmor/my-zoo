@@ -2,7 +2,7 @@
 
 namespace my_zoo
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
@@ -11,6 +11,8 @@ namespace my_zoo
                 Console.WriteLine(animal);
                 Console.WriteLine(animal.MakeSound());
                 Console.WriteLine(animal.Eats());
+                Console.WriteLine(IIsPet);
+                Console.WriteLine(IIsScary);
             }
 
             Console.WriteLine("-------------------------------------------------------");

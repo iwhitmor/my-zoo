@@ -1,10 +1,7 @@
 ﻿namespace my_zoo
 {
-    partial class Program
+    public interface IIsPet
     {
-        interface IAmPet
-        {
-            bool AmPet { get; set; }
-        }
-    }
+        bool IsPet { get; set; }
+    }    
 }

@@ -1,10 +1,12 @@
 ﻿namespace my_zoo
 {
-    class Alligator : Reptile
+    class Alligator : Reptile, IIsScary
     {
         public override string ScaleColor => "Green";
 
         public override bool LaysEggs => true;
+
+        public bool IsScary { get; set; } = true;
 
         public override string Eats()
         {
