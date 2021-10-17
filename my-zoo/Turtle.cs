@@ -1,10 +1,12 @@
 ﻿namespace my_zoo
 {
-    class Turtle : Reptile
+    class Turtle : Reptile, IIsPet
     {
         public override string ScaleColor => "Green-ish?";
 
         public override bool LaysEggs => true;
+
+        public bool IsPet { get; set; } = true;
 
         public override string Eats()
         {

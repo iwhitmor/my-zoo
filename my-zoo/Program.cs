@@ -11,8 +11,6 @@ namespace my_zoo
                 Console.WriteLine(animal);
                 Console.WriteLine(animal.MakeSound());
                 Console.WriteLine(animal.Eats());
-                Console.WriteLine(IIsPet);
-                Console.WriteLine(IIsScary);
             }
 
             Console.WriteLine("-------------------------------------------------------");
@@ -24,6 +22,7 @@ namespace my_zoo
             Console.WriteLine("Hi, I am a Cow!");
             WriteAnimal(cow);
             Console.WriteLine();
+
 
             Dog dog = new Dog();
             Console.WriteLine("Hi, I am a Dog!");
@@ -38,12 +37,15 @@ namespace my_zoo
             Alligator alligator = new Alligator();
             Console.WriteLine("Hi, I am a Alligator!");
             WriteAnimal(alligator);
+            Console.WriteLine($"Am I scary: {alligator.IsScary}");
             Console.WriteLine();
 
             Snake snake = new Snake();
             Console.WriteLine("Hi, I am a Snake!");
             WriteAnimal(snake);
+            Console.WriteLine($"Am I scary: {snake.IsScary}");
             Console.WriteLine();
+           
 
             Turtle turtle = new Turtle();
             Console.WriteLine("Hi, I am a Turtle!");
