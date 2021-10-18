@@ -1,6 +1,6 @@
 ﻿namespace my_zoo
 {
-    class Cow : Mammal
+    public class Cow : Mammal
     {
         public override int NumLegs => 4;
 
@@ -8,12 +8,12 @@
 
         public override string Eats()
         {
-            return "Hay";
+            return "I eat Hay";
         }
 
         public override string MakeSound()
         {
-            return "Moooo";
+            return "I say Moooo";
         }
     }
 }

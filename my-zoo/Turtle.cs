@@ -1,19 +1,21 @@
 ﻿namespace my_zoo
 {
-    class Turtle : Reptile
+    public class Turtle : Reptile, IIsPet
     {
-        public override string ScaleColor => throw new System.NotImplementedException();
+        public override string ScaleColor => "Green-ish?";
 
         public override bool LaysEggs => true;
 
+        public bool IsPet { get; set; } = true;
+
         public override string Eats()
         {
-            return "Insects";
+            return "I love to eat insects";
         }
 
         public override string MakeSound()
         {
-            return "Grunt";
+            return "I can grunt";
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace my_zoo
 {
-    abstract class Mammal : Animal
+    public abstract class Mammal : Animal, IIsPet
     {
         public override string ToString()
         {
@@ -12,5 +12,7 @@
         public virtual bool BabyIsNursed { get; }
 
         public override bool HasHair => true;
+
+        public bool IsPet { get; set; } = true; 
     }
 }
