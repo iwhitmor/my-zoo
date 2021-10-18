@@ -8,20 +8,15 @@ namespace MyZoo.Tests
         [Fact]
         public void Dog_does_animal_things()
         {
-
             Animal animal = new Dog();
 
-
             Assert.Equal("I like to Woof-Woof at squirrels", animal.MakeSound());
-
         }
 
         [Fact]
         public void Monkey_does_animal_things()
         {
-
             Animal animal = new Monkey();
-
 
             Assert.Equal("I Howl when I am happy", animal.MakeSound());
         }
@@ -29,9 +24,7 @@ namespace MyZoo.Tests
         [Fact]
         public void Cow_does_animal_things()
         {
-
             Animal animal = new Cow();
-
 
             Assert.Equal("I say Moooo", animal.MakeSound());
         }
@@ -39,9 +32,7 @@ namespace MyZoo.Tests
         [Fact]
         public void Alligator_does_animal_things()
         {
-
             Animal animal = new Alligator();
-
 
             Assert.Equal("I bellow loudly", animal.MakeSound());
         }
@@ -49,9 +40,7 @@ namespace MyZoo.Tests
         [Fact]
         public void Snake_does_animal_things()
         {
-
-            Animal animal = new Snake();
-
+            Animal animal = new Snake();             
 
             Assert.Equal("I will hiss if you are nearby", animal.MakeSound());
         }
@@ -59,9 +48,7 @@ namespace MyZoo.Tests
         [Fact]
         public void Turtle_does_animal_things()
         {
-
             Animal animal = new Turtle();
-
 
             Assert.Equal("I can grunt", animal.MakeSound());
         }
