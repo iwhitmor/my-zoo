@@ -2,7 +2,7 @@
 
 namespace my_zoo
 {
-    partial class Program
+    class Program
     {
         static void Main(string[] args)
         {

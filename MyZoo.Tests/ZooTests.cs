@@ -3,12 +3,18 @@ using Xunit;
 
 namespace MyZoo.Tests
 {
-    public class UnitTest1
+    public class ZooTests
     {
         [Fact]
-        public void Test1()
+        public void Dog_does_animal_things()
         {
+            
+            Animal animal = new Dog();
+
+
+            Assert.Equal("I like to woof-woof at squirrels", animal(MakeSound());
 
         }
     }
 }
+

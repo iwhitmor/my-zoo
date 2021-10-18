@@ -39,3 +39,7 @@ Visuals of application are coming soon!
 * Lab 06
 
 ![zoo1](./my-zoo-lab-6.png)
+
+* Lab 07
+
+![zoo2](./my-zoo-lab-7.png)
