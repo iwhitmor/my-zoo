@@ -1,6 +1,6 @@
 ﻿namespace my_zoo
 {
-    abstract class Animal
+    public abstract class Animal
 
     {
         public override string ToString()

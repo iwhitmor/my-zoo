@@ -1,6 +1,6 @@
 ﻿namespace my_zoo
 {
-    class Dog : Mammal
+    public class Dog : Mammal
     {
         public override int NumLegs => 4;
 

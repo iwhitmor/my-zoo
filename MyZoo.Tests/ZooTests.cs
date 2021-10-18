@@ -1,5 +1,5 @@
-using System;
 using Xunit;
+using my_zoo;
 
 namespace MyZoo.Tests
 {
@@ -8,13 +8,12 @@ namespace MyZoo.Tests
         [Fact]
         public void Dog_does_animal_things()
         {
-            
+
             Animal animal = new Dog();
 
 
-            Assert.Equal("I like to woof-woof at squirrels", animal(MakeSound());
+            Assert.Equal("I like to Woof-Woof at squirrels", animal.MakeSound());
 
         }
     }
 }
-

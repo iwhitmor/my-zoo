@@ -1,6 +1,6 @@
 ﻿namespace my_zoo
 {
-    abstract class Mammal : Animal, IIsPet
+    public abstract class Mammal : Animal, IIsPet
     {
         public override string ToString()
         {
