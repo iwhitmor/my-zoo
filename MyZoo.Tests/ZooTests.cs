@@ -66,5 +66,20 @@ namespace MyZoo.Tests
             Assert.Equal("I can grunt", animal.MakeSound());
         }
 
+        [Fact]
+        public void Turtle_is_a_pet()
+        {
+            Turtle turtle = new Turtle();
+
+            Assert.True(turtle.IsPet);
+        }
+
+        [Fact]
+        public void Snake_is_scary()
+        {
+            Snake snake = new Snake();
+
+            Assert.True(snake.IsScary);
+        }
     }
 }
