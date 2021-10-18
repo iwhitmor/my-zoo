@@ -15,6 +15,7 @@ namespace MyZoo.Tests
             Assert.Equal("I like to Woof-Woof at squirrels", animal.MakeSound());
 
         }
+
         [Fact]
         public void Monkey_does_animal_things()
         {
@@ -24,5 +25,46 @@ namespace MyZoo.Tests
 
             Assert.Equal("I Howl when I am happy", animal.MakeSound());
         }
+
+        [Fact]
+        public void Cow_does_animal_things()
+        {
+
+            Animal animal = new Cow();
+
+
+            Assert.Equal("I say Moooo", animal.MakeSound());
+        }
+
+        [Fact]
+        public void Alligator_does_animal_things()
+        {
+
+            Animal animal = new Alligator();
+
+
+            Assert.Equal("I bellow loudly", animal.MakeSound());
+        }
+
+        [Fact]
+        public void Snake_does_animal_things()
+        {
+
+            Animal animal = new Snake();
+
+
+            Assert.Equal("I will hiss if you are nearby", animal.MakeSound());
+        }
+
+        [Fact]
+        public void Turtle_does_animal_things()
+        {
+
+            Animal animal = new Turtle();
+
+
+            Assert.Equal("I can grunt", animal.MakeSound());
+        }
+
     }
 }

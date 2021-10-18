@@ -1,6 +1,6 @@
 ﻿namespace my_zoo
 {
-    class Turtle : Reptile, IIsPet
+    public class Turtle : Reptile, IIsPet
     {
         public override string ScaleColor => "Green-ish?";
 

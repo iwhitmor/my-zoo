@@ -1,6 +1,6 @@
 ﻿namespace my_zoo
 {
-    class Snake : Reptile, IIsScary, IIsPet
+    public class Snake : Reptile, IIsScary, IIsPet
     {
         public override string ScaleColor => "Multiple Colors!";
 
